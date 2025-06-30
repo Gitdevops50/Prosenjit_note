@@ -41,3 +41,4 @@ resource "azurerm_storage_account" "this" {
   kind                     = each.value.storage_account.kind
   access_tier              = each.value.storage_account.access_tier
 }
+# frist creation korna one rg after one vm create
