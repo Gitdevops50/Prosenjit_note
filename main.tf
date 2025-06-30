@@ -42,3 +42,9 @@ resource "azurerm_storage_account" "this" {
   access_tier              = each.value.storage_account.access_tier
 }
 # frist creation korna one rg after one vm create
+
+
+# bhai moved {
+#    rg 
+#    location
+# }
